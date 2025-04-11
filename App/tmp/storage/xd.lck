@@ -1,0 +1,13 @@
+Private property of Exodus: 6677@siddharths-MacBook-Pro.local
+
+jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:89)
+jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:40)
+jetbrains.exodus.io.FileDataWriter.lock(FileDataWriter.kt:97)
+jetbrains.exodus.log.Log.tryLock(Log.kt:798)
+jetbrains.exodus.log.Log.<init>(Log.kt:120)
+jetbrains.exodus.env.Environments.newLogInstance(Environments.java:142)
+jetbrains.exodus.env.Environments.newLogInstance(Environments.java:121)
+jetbrains.exodus.env.Environments.newLogInstance(Environments.java:105)
+jetbrains.exodus.env.Environments.newInstance(Environments.java:50)
+jetbrains.exodus.env.Environments.newInstance(Environments.java:40)
+io.example.App.main(App.java:53)
